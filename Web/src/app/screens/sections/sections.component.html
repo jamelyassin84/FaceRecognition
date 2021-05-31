@@ -1,0 +1,30 @@
+<div class="card card-body content pl-2">
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label for="">Course</label>
+            <select type="date" class="form-control">
+                <option value="">Choose...</option>
+            </select>
+        </div>
+    </div>
+    <table class="table table-stripped table-hover  text-center">
+        <thead class="text-center">
+            <tr>
+                <th class="text-center"></th>
+                <th class="text-center">Course</th>
+                <th class="text-center">Section</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]">
+                <td></td>
+                <td>BSIT</td>
+                <td>1-A</td>
+                <td>
+                    <button class="btn btn-warning btn-sm ">Edit</button> &nbsp;
+                    <button class="btn btn-danger btn-sm btn-fill">Remove</button> &nbsp;
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

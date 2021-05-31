@@ -1,0 +1,64 @@
+<div class="card card-body content pl-2">
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label for="">Date</label>
+            <input type="date" class="form-control">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="">Room</label>
+            <select type="date" class="form-control">
+                <option value="">Choose...</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="">Course</label>
+            <select type="date" class="form-control">
+                <option value="">Choose...</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="">Section</label>
+            <select type="date" class="form-control">
+                <option value="">Choose...</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="">From</label>
+            <input type="time" class="form-control">
+
+        </div>
+        <div class="form-group col-md-2">
+            <label for="">To</label>
+            <input type="time" class="form-control">
+
+        </div>
+    </div>
+    <table class="table table-stripped table-hover  text-center">
+        <thead class="text-center">
+            <tr>
+                <th class="text-center"></th>
+                <th class="text-center">Name</th>
+                <th class="text-center">Course</th>
+                <th class="text-center">Section</th>
+                <th class="text-center">Date</th>
+                <td class="text-center">In Time</td>
+                <td class="text-center">In Temp</td>
+                <td class="text-center">Out Time</td>
+                <td class="text-center">Out Temp</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]">
+                <td></td>
+                <td>Jisa Sazon</td>
+                <td><span class="badge badge-primary">BSIT</span></td>
+                <td>2-A</td>
+                <td>July 4, 2021</td>
+                <td class="text-success">8:00 AM</td>
+                <td class="text-danger">36.8</td>
+                <td class="text-info">9:00</td>
+                <td class="text-danger">38.2 <span class="badge btn-danger btn-fill">!</span> </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
